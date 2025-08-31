@@ -1,0 +1,16 @@
+.header {
+  background-color: white; /* header branco */
+  color: black;            /* letras do header pretas */
+  padding: 1rem;
+  text-align: center;
+}
+
+.header a {
+  color: black;            /* links do header pretos */
+  text-decoration: none;
+  margin: 0 1rem;
+}
+
+.header a:hover {
+  text-decoration: underline;
+}
