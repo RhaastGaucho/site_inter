@@ -1,11 +1,11 @@
 import Layout from '../../components/Layout/Layout';
+import Scoreboard from '../../components/Scoreboard/Scoreboard';
 import './Home.css';
 
 function Home() {
   return (
     <Layout>
-      <h1>Página Principal</h1>
-      <p>Bem-vindo à página principal!</p>
+      <Scoreboard /> 
     </Layout>
   );
 }

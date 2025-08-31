@@ -1,0 +1,41 @@
+.scoreboard {
+  background-color: white;
+  color: black;
+  padding: 1rem;
+  border-radius: 8px;
+  max-width: 1000px;
+  margin: 2rem auto;
+  text-align: center;
+  position: fixed;
+  top: 80px;
+  left: 40px;
+}
+
+.match {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.team {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.goals {
+  font-size: 2rem;
+  margin: 0.5rem 0;
+}
+
+button {
+  margin: 0.2rem;
+  padding: 0.3rem 0.6rem;
+  font-size: 1rem;
+}
+
+.vs {
+  font-size: 1.5rem;
+  font-weight: bold;
+}

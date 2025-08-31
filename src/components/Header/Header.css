@@ -1,10 +1,11 @@
 .header {
   background-color: white; /* header branco */
   color: black;            /* letras do header pretas */
-  padding: 1rem;
+  padding: 0.5rem;
   text-align: center;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .logo {
