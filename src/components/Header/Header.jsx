@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import logo from '../../assets/inter.png';
+import logo from '../../assets/escudos/inter.png';
 import './Header.css';
 
 function Header() {

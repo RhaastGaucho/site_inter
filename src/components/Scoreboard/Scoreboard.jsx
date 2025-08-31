@@ -1,6 +1,6 @@
 import { useState } from 'react';
-import interLogo from '../../assets/inter.png';
-import fortalezaLogo from '../../assets/fortaleza.png';
+import interLogo from '../../assets/escudos/inter.png';
+import fortalezaLogo from '../../assets/escudos/fortaleza.png';
 import './Scoreboard.css';
 
 function Scoreboard({ isAdmin = false }) {
