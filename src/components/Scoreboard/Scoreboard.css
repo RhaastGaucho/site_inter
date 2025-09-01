@@ -5,17 +5,18 @@
   border-radius: 10px;
   max-width: 1000px;
   margin: 2rem auto;
-  text-align: center;
-  top: 80px;
-  left: 40px;
   font-family: 'Montserrat', sans-serif;
+  text-align: center; 
+    justify-content: center;   /* centraliza todo conteúdo horizontalmente */
+
 }
 
 /* Área da partida */
 .match {
   display: flex;
-  justify-content: space-around;
-  align-items: center;
+  justify-content: center;   /* centraliza todo conteúdo horizontalmente */
+  align-items: center;       /* centraliza verticalmente */
+  gap: 4rem;                 /* espaço entre time-esquerdo, placar e time-direito */
   margin-top: 1rem;
 }
 
@@ -30,38 +31,30 @@
   font-weight: bold;  
 }
 
-
 .team img {
   width: 60px;          
   height: 60px;
   object-fit: cover;
   margin-bottom: 0.5rem;
-  align-items: center;
-
 }
 
-
-.goals, .score {
-  font-size: 10rem;      
+.goals {
+  font-size: 2.5rem;      
   font-weight: bold;
-  margin: 0.5rem 0;
-  align-items: center;
-
-}
-
-.vs {
-  font-size: 1.5rem;
-  font-weight: bold;
-    align-items: center;
-
 }
 
 .score {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 2.5rem;
+  gap: 10px; 
+  font-size: 3rem;
   font-weight: bold;
-  min-width: 100px;  /* garante espaço fixo para centralizar */
   text-align: center;
+  min-width: 120px;  /* garante que o bloco fique equilibrado */
+}
+
+.vs {
+  font-size: 1.5rem;
+  font-weight: bold;
 }
