@@ -6,12 +6,9 @@ import './Scoreboard.css';
 function Scoreboard({ isAdmin = false }) {
   const [homeGoals, setHomeGoals] = useState(0);
   const [awayGoals, setAwayGoals] = useState(0);
-  const [status, setStatus] = useState("Próximo");
 
   return (
     <div className="scoreboard">
-      <h2>Internacional x Fortaleza</h2>
-
       <div className="match">
         <div className="team">
           <img src={interLogo} alt="Internacional" className="logo" />
@@ -25,8 +22,6 @@ function Scoreboard({ isAdmin = false }) {
           <span>Fortaleza</span>
         </div>
       </div>
-
-      <p>Status: {status}</p>
 
       {isAdmin && (
         <div className="controls">
@@ -45,14 +40,6 @@ function Scoreboard({ isAdmin = false }) {
               value={awayGoals}
               onChange={(e) => setAwayGoals(Number(e.target.value))}
             />
-          </div>
-          <div>
-            <label>Status: </label>
-            <select value={status} onChange={(e) => setStatus(e.target.value)}>
-              <option>Em andamento</option>
-              <option>Finalizado</option>
-              <option>Próximo</option>
-            </select>
           </div>
         </div>
       )}

@@ -2,14 +2,16 @@
   background-color: white;
   color: black;
   padding: 1rem;
-  border-radius: 8px;
+  border-radius: 10px;
   max-width: 1000px;
   margin: 2rem auto;
   text-align: center;
   top: 80px;
   left: 40px;
+  font-family: 'Montserrat', sans-serif;
 }
 
+/* Área da partida */
 .match {
   display: flex;
   justify-content: space-around;
@@ -23,18 +25,43 @@
   align-items: center;
 }
 
-.goals {
-  font-size: 2rem;
-  margin: 0.5rem 0;
+.team span {
+  font-size: 2rem;   
+  font-weight: bold;  
 }
 
-button {
-  margin: 0.2rem;
-  padding: 0.3rem 0.6rem;
-  font-size: 1rem;
+
+.team img {
+  width: 60px;          
+  height: 60px;
+  object-fit: cover;
+  margin-bottom: 0.5rem;
+  align-items: center;
+
+}
+
+
+.goals, .score {
+  font-size: 10rem;      
+  font-weight: bold;
+  margin: 0.5rem 0;
+  align-items: center;
+
 }
 
 .vs {
   font-size: 1.5rem;
   font-weight: bold;
+    align-items: center;
+
+}
+
+.score {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+  min-width: 100px;  /* garante espaço fixo para centralizar */
+  text-align: center;
 }

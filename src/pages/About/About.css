@@ -1,0 +1,26 @@
+.about-title {
+  text-align: center;
+  font-size: 4rem;
+  margin-bottom: 1rem;
+  color: rgb(255, 255, 255); 
+  font-weight: bold;
+  font-family: Montserrat,Montserrat Fallback;
+}
+
+.about-image {
+  display: block;         /* transforma em bloco para centralizar */
+  margin: 0 auto 1rem;    /* centraliza horizontalmente e adiciona espaço abaixo */
+  max-width: 80%;         /* largura máxima da imagem */
+  height: auto;           /* mantém proporção da imagem */
+  border-radius: 10px;    /* opcional, bordas arredondadas */
+}
+
+.about-text {
+  font-size: 25px;  
+  line-height: 1.5;  
+  color: #ffffff;     
+  font-family: Montserrat,Montserrat Fallback;  
+  text-align: justify;
+  padding: 0 100px;
+  font-weight: bold;
+}

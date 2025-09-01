@@ -9,7 +9,7 @@ function Header() {
         <img src={logo} alt="Logo" className="logo" />
       </div>
       <nav>
-        <Link to="/">Principal</Link> | <Link to="/about">História</Link>
+        <Link to="/">Principal</Link> | <Link to="/about">Sobre o clube</Link>
       </nav>
     </header>
   );
